@@ -2,16 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Felipa&family=Quintessential&display=swap');
 
 :root {
-    --clr-primary: #281d01;
-    --clr-primary-light: #fdd436;
-    --clr-primary-3: #305118;
-    --clr-secondary: #e17b0c;
-    --clr-heading: #c4a328;
-    --clr-yellow-1: #bf9f24;
+    --clr-primary: #282e2a;
+    --clr-primary-light: #e1b83b;
+    --clr-primary-3: #4e5a2b;
+    --clr-secondary: #d3963e;
+    --clr-yellow-1: #edc95d;
     --clr-grey-2: #6c757d;
     --clr-grey-3: #adb5bd;
     --clr-black: #222;
-    --clr-white: #4a3409;
+    --clr-white: #ac7222;
     --ff-primary: 'Felipa', serif;
     --ff-secondary: 'Quintessential', serif;
     --transition: all 0.3s ease-in;
@@ -191,7 +190,7 @@ p{
 nav h4 {
     text-align: center;
     text-decoration: underline;
-    color: var(--clr-primary);
+    color: var(--clr-primary-light);
 }
 .navbar {
     position: fixed;
@@ -199,7 +198,7 @@ nav h4 {
     left: 0;
     width: 40%;
     height: 40%;
-    background: var(--clr-primary-light);
+    background: var(--clr-primary);
     z-index: 2;
     box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.4);
     transition: var(--transition);
@@ -232,7 +231,7 @@ nav h4 {
     display: block;
     font-size: 1.1rem;
     padding: 0.4rem 1.3rem;
-    color: var(--clr-primary);
+    color: var(--clr-primary-light);
     transition: var(--transition);
 }
 .nav-link:hover {
@@ -246,7 +245,7 @@ nav h4 {
 }
 .header {
     min-height: 100vh;
-    background: linear-gradient(rgba(45, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),url('../images/main.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(3, 2, 0, 0.4), rgba(0, 0, 0, 0.2)),url('../images/main.jpg') center/cover no-repeat fixed;
     position: relative;
     overflow-x: hidden;
 }
@@ -263,7 +262,7 @@ nav h4 {
     animation: slideFromRight 5s ease-in-out 1;
 }
 .banner h1 {
-    color: var(--clr-heading);
+    color: var(--clr-primary-light);
     text-transform: capitalize;
     margin-top: 1.25rem;
     margin-bottom: 2rem;
@@ -391,7 +390,7 @@ span {
     object-fit: cover;
 }
 .product-price {
-    color: var(--clr-primary);
+    color: var(--clr-secondary);
     font-size: 0.8rem;
 }
 .product-btn {
@@ -502,7 +501,7 @@ span {
 }
 .contact-form {
     background: var(--clr-white);
-    background: var(--clr-secondary);
+    background: var(--clr-white);
     border-radius: var(--radius);
     text-align: center;
     max-width: 35rem;
@@ -519,7 +518,7 @@ span {
     width: 100%;
     padding: 0.9rem;
     border: none;
-    background: var(--clr-white);
+    background: var(--clr-secondary);
     margin-bottom: 0.6rem;
     border-radius: var(--radius);
 }
